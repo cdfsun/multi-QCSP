@@ -1,0 +1,253 @@
+bay 1: 1(140)  2(29)  3(7)  
+bay 2: 4(44)  5(33)  
+bay 3: 6(29)  
+bay 4: 7(38)  8(52)  9(43)  10(3)  11(154)  
+bay 5: 
+bay 6: 12(24)  13(3)  14(36)  
+bay 7: 15(11)  
+bay 8: 16(43)  17(14)  
+bay 9: 18(10)  19(18)  20(15)  
+bay 10: 21(63)  22(20)  23(17)  24(84)  25(70)  
+bay 11: 
+bay 12: 26(100)  27(85)  
+bay 13: 
+bay 14: 28(94)  29(83)  30(42)  31(61)  
+bay 15: 32(42)  
+bay 16: 33(89)  34(61)  
+
+unidirectional makespan=352
+
+bidirectional makespan=352
+Ëã·¨¿ªÊ¼£º
+
+1- iteration starts. 
+1- MP value: 340, lower bound: 340, MP time: 10.926, current time: 10.975
+QC  1:  1-2-3-4-5-8-6-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-16-17-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+1- final UB =352, current time= 11.305
+
+2- iteration starts. 
+2- MP value: 340, lower bound: 340, MP time: 16.842, current time: 28.148
+QC  1:  4-8-6-5-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  33-28-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+2- final UB =352, current time= 28.475
+
+3- iteration starts. 
+3- MP value: 340, lower bound: 340, MP time: 19.381, current time: 47.856
+QC  1:  4-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-16-17-14-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+3- final UB =352, current time= 48.3
+
+4- iteration starts. 
+4- MP value: 340, lower bound: 340, MP time: 13.136, current time: 61.436
+QC  1:  4-6-8-5-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-9-10-11-16-17-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-32-33-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+4- final UB =352, current time= 61.777
+
+5- iteration starts. 
+5- MP value: 340, lower bound: 340, MP time: 14.759, current time: 76.536
+QC  1:  4-5-6-8-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+5- final UB =352, current time= 76.904
+
+6- iteration starts. 
+6- MP value: 340, lower bound: 340, MP time: 23.351, current time: 100.255
+QC  1:  4-6-8-5-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+6- SP start. 
+6-current UB=347, current time= 101.38
+6- final UB =347, current time= 101.396
+
+7- iteration starts. 
+7- MP value: 340, lower bound: 340, MP time: 14.079, current time: 115.475
+QC  1:  4-8-6-5-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+7- SP start. 
+7-current UB=347, current time= 116.908
+7- final UB =347, current time= 116.926
+
+8- iteration starts. 
+8- MP value: 340, lower bound: 340, MP time: 19.102, current time: 136.028
+QC  1:  4-5-8-6-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+8- SP start. 
+8-current UB=363, current time= 137.372
+8- final UB =347, current time= 137.383
+
+9- iteration starts. 
+9- MP value: 341, lower bound: 341, MP time: 18.298, current time: 155.681
+QC  1:  4-5-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+9- final UB =347, current time= 156.134
+
+10- iteration starts. 
+10- MP value: 341, lower bound: 341, MP time: 17.108, current time: 173.242
+QC  1:  4-6-8-1-2-3-5-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+10- SP start. 
+10-current UB=347, current time= 174.548
+10- final UB =347, current time= 174.564
+
+11- iteration starts. 
+11- MP value: 341, lower bound: 341, MP time: 20.552, current time: 195.116
+QC  1:  4-8-6-1-2-3-5-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-19-20-21-22-23-24-25-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+11- SP start. 
+11-current UB=347, current time= 196.386
+11- final UB =347, current time= 196.401
+
+12- iteration starts. 
+12- MP value: 341, lower bound: 341, MP time: 20.47, current time: 216.871
+QC  1:  4-6-8-5-1-2-3-
+QC  1:  1, 2, 3, 4, 5, 6, 8, , sum=334
+QC  2:  7-14-16-17-9-10-11-
+QC  2:  7, 9, 10, 11, 14, 16, 17, , sum=331
+QC  3:  12-13-15-18-21-22-23-24-25-19-20-
+QC  3:  12, 13, 15, 18, 19, 20, 21, 22, 23, 24, 25, , sum=335
+QC  4:  26-29-27-31-
+QC  4:  26, 27, 29, 31, , sum=329
+QC  5:  28-33-32-30-34-
+QC  5:  28, 30, 32, 33, 34, , sum=328
+12- SP start. 
+12-current UB=341, current time= 218.011
+12- final UB =341, current time= 218.014
+
+xF_opt
+ QC 1 move from 1 to 2
+ QC 1 move from 2 to 3
+ QC 1 move from 4 to 6
+ QC 1 move from 5 to 1
+ QC 1 move from 6 to 8
+ QC 1 move from 8 to 5
+ QC 2 move from 7 to 14
+ QC 2 move from 9 to 10
+ QC 2 move from 10 to 11
+ QC 2 move from 14 to 16
+ QC 2 move from 16 to 17
+ QC 2 move from 17 to 9
+ QC 3 move from 12 to 13
+ QC 3 move from 13 to 15
+ QC 3 move from 15 to 18
+ QC 3 move from 18 to 21
+ QC 3 move from 19 to 20
+ QC 3 move from 21 to 22
+ QC 3 move from 22 to 23
+ QC 3 move from 23 to 24
+ QC 3 move from 24 to 25
+ QC 3 move from 25 to 19
+ QC 4 move from 26 to 29
+ QC 4 move from 27 to 31
+ QC 4 move from 29 to 27
+ QC 5 move from 28 to 33
+ QC 5 move from 30 to 34
+ QC 5 move from 32 to 30
+ QC 5 move from 33 to 32
+LB0 = 340
+LB = 341
+UB = 341
+
+cb cut =13
+cb single cut =3
+cb subset cut =0
+cb cut 2016 =0
+precedence cut 2016=1
+subtour cut =14
+
+inf cut =0
+opt cut =5
+SP count =6
+IterNo=12
+
+GAP = 0
+MP_Time=208.004
+SP_Time=5.2
+Time allocation_Time=0
+Time=218.014

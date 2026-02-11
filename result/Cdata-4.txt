@@ -1,0 +1,254 @@
+bay 1: 
+bay 2: 1(192)  2(167)  
+bay 3: 
+bay 4: 3(180)  4(161)  5(93)  6(102)  
+bay 5: 7(29)  
+bay 6: 8(171)  9(50)  10(153)  
+bay 7: 11(42)  
+bay 8: 12(180)  13(199)  14(104)  15(51)  
+bay 9: 
+bay 10: 
+
+best unidirectional makespan=705
+best bidirectional makespan=692
+
+Benders approach starts:
+
+1- iteration starts. 
+1- MP value: 633, lower bound: 633, MP time: 0.237, current time: 0.242
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-8-7-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  11-9-12-13-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+1- SP start. 
+1-current UB=942, current time= 0.538
+1- final UB =692, current time= 0.54
+
+2- iteration starts. 
+2- MP value: 633, lower bound: 633, MP time: 0.507, current time: 1.047
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-7-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-9-11-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+2- SP start. 
+2-current UB=646, current time= 1.11
+2- final UB =646, current time= 1.112
+
+3- iteration starts. 
+3- MP value: 633, lower bound: 633, MP time: 0.133, current time: 1.245
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-14-9-11-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+3- SP start. 
+3-current UB=0, current time= 1.278
+3- final UB =646, current time= 1.28
+
+4- iteration starts. 
+4- MP value: 633, lower bound: 633, MP time: 0.257, current time: 1.537
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-7-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-11-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+4- SP start. 
+4-current UB=646, current time= 1.597
+4- final UB =646, current time= 1.598
+
+5- iteration starts. 
+5- MP value: 634, lower bound: 634, MP time: 0.093, current time: 1.691
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-7-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-11-13-14-9-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+5- SP start. 
+5-current UB=736, current time= 1.749
+5- final UB =646, current time= 1.751
+
+6- iteration starts. 
+6- MP value: 634, lower bound: 634, MP time: 0.158, current time: 1.909
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-7-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-9-13-11-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+6- SP start. 
+6-current UB=835, current time= 1.973
+6- final UB =646, current time= 1.977
+
+7- iteration starts. 
+7- MP value: 634, lower bound: 634, MP time: 0.097, current time: 2.074
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  3-7-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  11-12-13-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+7- SP start. 
+7-current UB=646, current time= 2.129
+7- final UB =646, current time= 2.13
+
+8- iteration starts. 
+8- MP value: 635, lower bound: 635, MP time: 0.146, current time: 2.276
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  8-3-7-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-11-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+8- SP start. 
+8-current UB=798, current time= 2.339
+8- final UB =646, current time= 2.341
+
+9- iteration starts. 
+9- MP value: 635, lower bound: 635, MP time: 0.109, current time: 2.451
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  7-3-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-11-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+9- SP start. 
+9-current UB=648, current time= 2.511
+9- final UB =646, current time= 2.513
+
+10- iteration starts. 
+10- MP value: 635, lower bound: 635, MP time: 0.101, current time: 2.614
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  7-3-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  12-13-9-11-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+10- SP start. 
+10-current UB=648, current time= 2.677
+10- final UB =646, current time= 2.679
+
+11- iteration starts. 
+11- MP value: 635, lower bound: 635, MP time: 0.249, current time: 2.928
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  7-3-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  11-12-13-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+11- SP start. 
+11-current UB=648, current time= 2.984
+11- final UB =646, current time= 2.987
+
+12- iteration starts. 
+12- MP value: 635, lower bound: 635, MP time: 0.104, current time: 3.091
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=622
+QC  2:  7-3-8-5-10-
+QC  2:  3, 5, 7, 8, 10, , sum=626
+QC  3:  11-12-9-13-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+12- SP start. 
+12-current UB=793, current time= 3.166
+12- final UB =646, current time= 3.169
+
+13- iteration starts. 
+13- MP value: 641, lower bound: 641, MP time: 0.167, current time: 3.336
+QC  1:  3-1-5-2-
+QC  1:  1, 2, 3, 5, , sum=632
+QC  2:  8-4-7-6-10-
+QC  2:  4, 6, 7, 8, 10, , sum=616
+QC  3:  12-9-11-13-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+13- SP start. 
+13-current UB=731, current time= 3.417
+13- final UB =646, current time= 3.419
+
+14- iteration starts. 
+14- MP value: 641, lower bound: 641, MP time: 0.248, current time: 3.667
+QC  1:  3-1-5-2-
+QC  1:  1, 2, 3, 5, , sum=632
+QC  2:  8-6-
+QC  2:  4, 6, 7, 8, 10, , sum=616
+QC  3:  12-11-9-13-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+14- SP start. 
+14-current UB=0, current time= 3.724
+14- final UB =646, current time= 3.727
+
+15- iteration starts. 
+15- MP value: 641, lower bound: 641, MP time: 0.147, current time: 3.874
+QC  1:  3-1-5-2-
+QC  1:  1, 2, 3, 5, , sum=632
+QC  2:  8-4-7-10-6-
+QC  2:  4, 6, 7, 8, 10, , sum=616
+QC  3:  12-13-11-9-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+15- SP start. 
+15-current UB=739, current time= 3.947
+15- final UB =646, current time= 3.949
+
+16- iteration starts. 
+16- MP value: 641, lower bound: 641, MP time: 0.152, current time: 4.101
+QC  1:  3-1-5-2-
+QC  1:  1, 2, 3, 5, , sum=632
+QC  2:  8-4-10-6-7-
+QC  2:  4, 6, 7, 8, 10, , sum=616
+QC  3:  12-13-9-11-14-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+16- SP start. 
+16-current UB=764, current time= 4.174
+16- final UB =646, current time= 4.176
+
+17- iteration starts. 
+17- MP value: 641, lower bound: 641, MP time: 0.154, current time: 4.33
+QC  1:  3-1-5-2-
+QC  1:  1, 2, 3, 5, , sum=632
+QC  2:  8-4-7-10-6-
+QC  2:  4, 6, 7, 8, 10, , sum=616
+QC  3:  12-9-13-14-11-15-
+QC  3:  9, 11, 12, 13, 14, 15, , sum=626
+17- SP start. 
+17-current UB=641, current time= 4.394
+17- final UB =641, current time= 4.394
+
+xF_opt
+ QC 1 move from 1 to 5
+ QC 1 move from 3 to 1
+ QC 1 move from 5 to 2
+ QC 2 move from 4 to 7
+ QC 2 move from 7 to 10
+ QC 2 move from 8 to 4
+ QC 2 move from 10 to 6
+ QC 3 move from 9 to 13
+ QC 3 move from 11 to 15
+ QC 3 move from 12 to 9
+ QC 3 move from 13 to 14
+ QC 3 move from 14 to 11
+LB0 = 633
+LB = 641
+UB = 641
+
+cb cut =24
+cb single cut =5
+cb subset cut =0
+cb cut 2016 =0
+precedence cut 2016=1
+subtour cut =8
+
+inf cut =2
+opt cut =14
+SP count =17
+IterNo=17
+
+GAP = 0
+MP_Time=3.059
+SP_Time=0.691
+Time allocation_Time=0.224
+Time=4.394

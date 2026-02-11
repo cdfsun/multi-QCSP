@@ -1,0 +1,60 @@
+bay 1: 1(57)  2(49)  
+bay 2: 
+bay 3: 3(54)  4(48)  5(24)  6(35)  
+bay 4: 7(24)  
+bay 5: 8(51)  9(35)  
+
+best unidirectional makespan=212
+best bidirectional makespan=203
+
+Benders approach starts:
+
+1- iteration starts. 
+1- MP value: 195, lower bound: 195, MP time: 0.042, current time: 0.044
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=189
+QC  2:  3-7-5-8-9-
+QC  2:  3, 5, 7, 8, 9, , sum=188
+1- SP start. 
+1-current UB=242, current time= 0.119
+1- final UB =203, current time= 0.121
+
+2- iteration starts. 
+2- MP value: 195, lower bound: 195, MP time: 0.06, current time: 0.181
+QC  1:  1-4-2-6-
+QC  1:  1, 2, 4, 6, , sum=189
+QC  2:  3-8-7-5-9-
+QC  2:  3, 5, 7, 8, 9, , sum=188
+2- SP start. 
+2-current UB=195, current time= 0.214
+2- final UB =195, current time= 0.215
+
+xF_opt
+ QC 1 move from 1 to 4
+ QC 1 move from 2 to 6
+ QC 1 move from 4 to 2
+ QC 2 move from 3 to 8
+ QC 2 move from 5 to 9
+ QC 2 move from 7 to 5
+ QC 2 move from 8 to 7
+LB0 = 195
+LB = 195
+UB = 195
+
+cb cut =5
+cb single cut =1
+cb subset cut =0
+cb cut 2016 =0
+precedence cut 2016=0
+subtour cut =0
+
+inf cut =0
+opt cut =1
+SP count =2
+IterNo=2
+
+GAP = 0
+MP_Time=0.102
+SP_Time=0.057
+Time allocation_Time=0.038
+Time=0.215
